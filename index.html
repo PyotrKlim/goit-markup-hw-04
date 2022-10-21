@@ -41,12 +41,20 @@
         <!-- контакты -->
         <ul class="auth-nav list">
           <li class="item">
-            <a class="link" href="mailto:info@devstudio.com">
+            <a class="link icon" href="mailto:info@devstudio.com">
+              <svg class="icon-auth-nav" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
           <li class="item">
-            <a class="link" href="tel:+380961111111"> +38 096 111 11 11 </a>
+            <a class="link" href="tel:+380961111111">
+              <svg class="icon-auth-nav" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -61,10 +69,15 @@
 
       <!-- преимущества -->
       <section class="section">
-        <h2 class="visually-hidden">Наші переваги</h2>
         <div class="container">
+          <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="list benefits-list">
-            <li class="benefits-item icon-antenna">
+            <li class="benefits-item">
+              <div class="icon-box-benefits">
+                <svg class="" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits capital-letters">Увага до деталей</h3>
               <p class="description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -73,6 +86,11 @@
             </li>
 
             <li>
+              <div class="icon-box-benefits">
+                <svg class="" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits capital-letters">Пунктуальність</h3>
               <p class="description">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -81,6 +99,11 @@
             </li>
 
             <li>
+              <div class="icon-box-benefits">
+                <svg class="" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits capital-letters">Планування</h3>
               <p class="description">
                 Так само консультація з широким активом значною мірою зумовлює.
@@ -88,6 +111,11 @@
             </li>
 
             <li>
+              <div class="icon-box-benefits">
+                <svg class="" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title-benefits capital-letters">Сучасні технології</h3>
               <p class="description">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -99,9 +127,9 @@
       </section>
 
       <!-- продукция -->
-      <section class="section products-section">
-        <h2 class="products">Чим ми займаємося</h2>
-        <div class="container">
+      <section class="products-section section">
+        <div class="container products-container">
+          <h2 class="products">Чим ми займаємося</h2>
           <ul class="list products-list">
             <li>
               <img
@@ -134,9 +162,9 @@
       </section>
 
       <!-- команда -->
-      <section class="section section-team">
-        <h2 class="team">Наша команда</h2>
-        <div class="container">
+      <section class="section-team section">
+        <div class="container team-container">
+          <h2 class="team">Наша команда</h2>
           <ul class="list team-list">
             <li class="team-card">
               <img
@@ -145,10 +173,30 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p class="description team-description" lang="en">
-                Product Designer
-              </p>
+              <div class="team-text">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p class="description team-description" lang="en">
+                  Product Designer
+                </p>
+              </div>
+              <div class="list-socseti">
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </div>
             </li>
 
             <li class="team-card">
@@ -158,10 +206,30 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p class="description team-description" lang="en">
-                Frontend-developer
-              </p>
+              <div class="team-text">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p class="description team-description" lang="en">
+                  Frontend-developer
+                </p>
+              </div>
+              <div class="list-socseti">
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </div>
             </li>
 
             <li class="team-card">
@@ -171,8 +239,28 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title" lang="en">Микола Тарасов</h3>
-              <p class="description team-description">Marketing</p>
+              <div class="team-text">
+                <h3 class="team-title" lang="en">Микола Тарасов</h3>
+                <p class="description team-description">Marketing</p>
+              </div>
+              <div class="list-socseti">
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </div>
             </li>
 
             <li class="team-card">
@@ -182,45 +270,130 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p class="description team-description" lang="en">UI-Designer</p>
+              <div class="team-text">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p class="description team-description" lang="en">
+                  UI-Designer
+                </p>
+              </div>
+              <div class="list-socseti">
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+                <a class="box-socseti" href=""
+                  ><svg class="icon-socseti" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
+    <!-- постоянные клиенты -->
+    <section class="section-clients section">
+      <div class="clients-container container">
+        <h2 class="clients">Постійні клієнти</h2>
+        <div class="list-sites">
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="41px" height="47px">
+              <use href="./images/icons.svg#icon-client-logo-1"></use>
+            </svg>
+          </a>
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="40px" height="52px">
+              <use href="./images/icons.svg#icon-client-logo-2"></use>
+            </svg>
+          </a>
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="43px" height="41px">
+              <use href="./images/icons.svg#icon-client-logo-3"></use>
+            </svg>
+          </a>
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="84px" height="41px">
+              <use href="./images/icons.svg#icon-client-logo-4"></use>
+            </svg>
+          </a>
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="63px" height="45px">
+              <use href="./images/icons.svg#icon-client-logo-5"></use>
+            </svg>
+          </a>
+          <a class="clients-sites" href=""
+            ><svg class="icon-clients" width="94px" height="44px">
+              <use href="./images/icons.svg#icon-client-logo-6"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- подвал-футер -->
     <footer class="footer section">
       <div class="container footer-container">
-        <a class="logo link" href="./index.html">
-          <span class="logo-web">Web</span
-          ><span class="logo-footer-studio">Studio</span>
-        </a>
-        <address>
-          <ul class="list list-address">
-            <li class="address-item">
-              <a
-                class="link footer-address"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-              >
-                м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-            <li class="address-item">
-              <a class="link footer-contact" href="mailto:info@devstudio.com">
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="address-item">
-              <a class="link footer-contact" href="tel:+380961111111">
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </address>
+        <div>
+          <a class="logo link" href="./index.html">
+            <span class="logo-web">Web</span
+            ><span class="logo-footer-studio">Studio</span>
+          </a>
+          <address>
+            <ul class="list list-address">
+              <li class="address-item">
+                <a
+                  class="link footer-address"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="address-item">
+                <a class="link footer-contact" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="address-item">
+                <a class="link footer-contact" href="tel:+380961111111">
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- присоеденяйтесь -->
+        <div class="join-aside">
+          <h3 class="join capital-letters">Приєднуйтесь</h3>
+          <div class="join-list">
+            <a class="join-box box-socseti" href=""
+              ><svg class="icon-socseti" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-instagram"></use></svg
+            ></a>
+            <a class="join-box box-socseti" href=""
+              ><svg class="icon-socseti" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-twitter"></use></svg
+            ></a>
+            <a class="join-box box-socseti" href=""
+              ><svg class="icon-socseti" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-facebook"></use></svg
+            ></a>
+            <a class="join-box box-socseti" href=""
+              ><svg class="icon-socseti" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-linkedin"></use></svg
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
