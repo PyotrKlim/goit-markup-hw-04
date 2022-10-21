@@ -428,7 +428,7 @@ header {
 }
 
 .footer-container {
-  flex-direction: row;
+  display: flex;
 }
 
 .list-address {
