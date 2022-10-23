@@ -121,6 +121,8 @@ header {
 }
 
 .auth-nav .link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -188,11 +190,12 @@ header {
 
 /* <!-- герой --> */
 .hero {
+  max-height: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background: var(--hero-footer-section-background);
   text-align: center;
-  border-bottom: 1px solid var(--border-header);
   background-color: var(--hero-bacrground);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -331,7 +334,7 @@ header {
 
 .team-text {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -349,12 +352,12 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .list-socseti {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 42px;
 }
 
 .box-socseti {
@@ -429,6 +432,7 @@ header {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .list-address {
@@ -464,6 +468,9 @@ header {
 }
 
 .join {
+  margin: 0;
+  margin-bottom: 20px;
+
   color: var(--second-basic);
   font-size: 14px;
   line-height: 16px;
@@ -476,6 +483,10 @@ header {
 .join-box {
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+}
+
+.join-box:last-child {
+  margin-right: 0;
 }
 
 /* <!-- фильтры карточек работ --> */
