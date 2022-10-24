@@ -26,6 +26,7 @@ body {
   --work-card-frame: #eeeeee;
   /* цвет иконок */
   --basic-icon: #afb1b8;
+  --second-icon: #ffffff;
 }
 
 /* перебивка стилей */
@@ -483,10 +484,15 @@ header {
 .join-box {
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .join-box:last-child {
   margin-right: 0;
+}
+
+.join-box .icon-socseti {
+  fill: var(--second-icon);
 }
 
 /* <!-- фильтры карточек работ --> */
